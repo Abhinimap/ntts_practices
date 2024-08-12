@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#80ff0000"> <!-- Semi-transparent red background -->
+
+    <TextView
+        android:id="@+id/overlay_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay Window"
+        android:textColor="#ffffff"
+        android:padding="10dp"/>
+</RelativeLayout>
